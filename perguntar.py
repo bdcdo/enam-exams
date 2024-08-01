@@ -3,13 +3,13 @@ from time import sleep
 import os
 from datetime import datetime
 
+import anthropic
 from groq import Groq
 import google.generativeai as genai
-from openai import OpenAI
 from maritalk import MariTalk
-import anthropic
 from mistralai.client import MistralClient
 from mistralai.models.chat_completion import ChatMessage
+from openai import OpenAI
 
 def modelLLM(cliente, current_model, question):
     return cliente.chat.completions.create(
