@@ -8,7 +8,7 @@ Sempre que possível, utilizei como provedor dos modelos de linguagem as empresa
 
 A tabela abaixo apresenta o desempenho total em porcentagem e o desempenho por exame dos modelos avaliados.
 
-| Model               | Total Performance (%) | Performance by Exam  |
+| Modelo              | % de acertos          | Performance por exame|
 |---------------------|-----------------------|----------------------|
 | Claude-3.5-Sonnet   | 71,875                | {1: 59, '1a': 56}    |
 | gpt-4o              | 68,125                | {1: 55, '1a': 54}    |
